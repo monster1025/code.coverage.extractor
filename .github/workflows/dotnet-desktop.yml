@@ -35,7 +35,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore src/CodeCoverageExtractor.csproj
     - name: Build
-      run: dotnet build --no-restore   -p:Version=$BUILD_VERSION CodeCoverageExtractor/CodeCoverageExtractor.csproj
+      run: dotnet build --no-restore   -p:Version=$BUILD_VERSION src/CodeCoverageExtractor.csproj
       
     - name: Publish
       if: startsWith(github.ref, 'refs/heads/release')
