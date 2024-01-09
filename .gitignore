@@ -13,6 +13,8 @@
 
 # Build results
 
+src/nupkg/*
+
 [Dd]ebug/
 [Rr]elease/
 x64/

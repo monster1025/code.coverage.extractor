@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net7.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  
@@ -10,7 +10,7 @@
 	<ToolCommandName>codecoverageextractor2</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>codecoverageextractor2</PackageId>
+	<PackageId>CodeCoverageExtractor2</PackageId>
 	<Authors>Monster1025</Authors>
 	<Company>admin@yandex5.ru</Company>
 	<Product>Code Coverage Extractor</Product>
