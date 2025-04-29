@@ -6,14 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<PackAsTool>true</PackAsTool>
-	<ToolCommandName>codecoverageextractor2</ToolCommandName>
+	<ToolCommandName>codecoverageextractor3</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>CodeCoverageExtractor2</PackageId>
+	<PackageId>CodeCoverageExtractor3</PackageId>
 	<Authors>Monster1025</Authors>
 	<Company>admin@yandex5.ru</Company>
 	<Product>Code Coverage Extractor</Product>
-	<Version>1.0.2</Version>
+	<Version>1.0.4</Version>
   </PropertyGroup>
 
 </Project>
