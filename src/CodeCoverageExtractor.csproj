@@ -2,10 +2,9 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net8.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net9.0;net8.0;net7.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  
 	<PackAsTool>true</PackAsTool>
 	<ToolCommandName>codecoverageextractor2</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
